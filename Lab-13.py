@@ -22,3 +22,16 @@ print("-----Exercise 4-----")
 big_south=df[(df['region'] == 'South') &(df['revenue'] > 1000)]
 
 print("-----Exercise 5-----")
+df['per_unit'] = df['revenue'] / df['quanity']
+print(df.head())
+
+print("-----Exercise 6-----")
+print(df['region'].unique())
+print(df['region'].value_counts())
+
+print("-----Exercise 7-----")
+df_subset = df[['region','product','revenue']]
+print(df_subset.shape)
+
+print("-----Exercise 8-----")
+test
