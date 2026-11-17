@@ -34,4 +34,4 @@ df_subset = df[['region','product','revenue']]
 print(df_subset.shape)
 
 print("-----Exercise 8-----")
-test
+df.to_csv('data/explored.csv',index=False)
